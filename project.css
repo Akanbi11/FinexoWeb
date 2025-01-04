@@ -1,0 +1,45 @@
+
+svg{
+    display: block;
+}
+
+.hero-bg{
+    background-position: center;
+    background-image: url("/images/hero-bg.png");
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: cover;
+    width: fit-content;
+    
+}
+
+.imgbounce{
+    animation-name: bounce;
+    animation-duration: 3s;
+animation-iteration-count: infinite;
+transition: all linear 0.2s;
+
+}
+
+@keyframes bounce {
+    0%{
+        transform:translateY(0);
+    }
+    25%{
+        transform: translateY(50px);
+    }
+    /* 50%{
+        transform:translateY(0);
+    }
+    100%{
+        transform: translateY(50px);
+    } */
+}
+title{
+     
+        font-family: "Merienda", cursive;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+      
+}
